@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Moms {
 
     public static void main(String[] args) {
-        plusMoms();
+        plusDanskmoms();
         plusTyskMoms();
 
     }
 
-    public static void plusMoms() {
+    public static void plusDanskmoms() {
         Scanner in = new Scanner(System.in);
         System.out.println("Indtast købsbeløbet:");
         double købsbeløbet = in.nextDouble();
